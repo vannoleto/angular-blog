@@ -1,0 +1,34 @@
+.container_content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.content_cover>img{
+    width: 500px;
+    min-width: 500px;
+    height: 250px;
+}
+.content_title>a{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.content_title{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.content_description{
+    width: 900px;
+    margin-top: 20px;
+}
+.content_description>p{
+    text-align: justify;
+    color: rgb(168, 168, 168);
+    font-size: 22px;
+}
