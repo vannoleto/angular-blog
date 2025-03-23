@@ -1,59 +1,109 @@
-# AngularBlog
+# Angular Blog
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.5.
+Este é um projeto de blog desenvolvido com Angular, inspirado em um layout do Dribbble. O design é moderno e responsivo, permitindo a publicação de artigos de forma eficiente.
 
-## Development server
+![image](https://github.com/user-attachments/assets/04de631b-804a-4869-a359-0adf2cf08c41)
 
-To start a local development server, run:
+![image](https://github.com/user-attachments/assets/ee0e470d-3b43-485e-9eba-834914ae7fdf)
+
+![image](https://github.com/user-attachments/assets/5c0e6cc6-5845-4be1-a80d-c420d1ab56f0)
+
+![image](https://github.com/user-attachments/assets/96350481-14a2-45ed-bc13-fdbd0623163a)
+
+![image](https://github.com/user-attachments/assets/0f2351bf-b889-45cd-b345-4d6bd76f809d)
+
+## Funcionalidades
+
+- **Publicação de Artigos**: Permite a criação e edição de posts no blog.
+- **Design Responsivo**: Layout adaptável a diferentes dispositivos e tamanhos de tela.
+- **Editor de Texto Rico**: Implementação de um editor WYSIWYG para facilitar a formatação dos artigos.
+
+## Tecnologias Utilizadas
+
+- **Angular**: Framework principal para o desenvolvimento do front-end.
+- **ngx-markdown**: Biblioteca Angular que utiliza o marked para converter markdown em HTML, combinada com Prism.js para realce de sintaxe.
+- **@kolkov/angular-editor**: Editor WYSIWYG nativo e simples para Angular 13+.
+
+## Pré-requisitos
+
+- **Node.js**: Certifique-se de ter o Node.js instalado em sua máquina.
+- **Angular CLI**: Ferramenta de linha de comando para Angular. Instale globalmente usando:
+
+```bash
+npm install -g @angular/cli
+```
+
+## Instalação
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/vannoleto/angular-blog.git
+```
+
+2. Navegue até o diretório do projeto:
+
+```bash
+cd angular-blog
+```
+
+3. Instale as dependências:
+
+```bash
+npm install
+```
+
+## Executando o Servidor de Desenvolvimento
+
+Para iniciar o servidor de desenvolvimento, execute:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Depois, abra o navegador e acesse `http://localhost:4200/`. A aplicação recarregará automaticamente ao detectar alterações nos arquivos fonte.
 
-## Code scaffolding
+## Gerando Componentes
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Para gerar um novo componente, utilize o Angular CLI:
 
 ```bash
-ng generate component component-name
+ng generate component nome-do-componente
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+
+Para ver todas as opções disponíveis, execute:
 
 ```bash
 ng generate --help
 ```
 
-## Building
+## Build
 
-To build the project run:
+Para compilar o projeto, execute:
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Os artefatos de build serão armazenados no diretório `dist/`. Utilize a flag `--prod` para uma compilação de produção.
 
-## Running unit tests
+## Testes
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+- **Testes Unitários**: Execute os testes unitários via Karma com:
 
 ```bash
 ng test
 ```
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+- **Testes de Ponta a Ponta**: Execute os testes end-to-end via Protractor com:
 
 ```bash
 ng e2e
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+> **Nota**: Para usar este comando, é necessário adicionar um pacote que implemente capacidades de teste end-to-end.
 
-## Additional Resources
+## Contribuições
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
